@@ -111,20 +111,18 @@ const Experience = () => {
                                   <span className="text-primary mt-1">•</span>
                                   <span className="flex-1">
                                     {typeof achievement === 'string' ? achievement : achievement.text}
-                                  </span>
-                                  {typeof achievement === 'object' && achievement.link && (
-                                    <Button
-                                      variant="ghost"
-                                      size="sm"
-                                      className="h-6 px-2 gap-1"
-                                      asChild
-                                    >
-                                      <a href={achievement.link} target="_blank" rel="noopener noreferrer">
-                                        <span className="text-xs">View</span>
-                                        <ExternalLink className="w-3 h-3" />
+                                    {typeof achievement === 'object' && achievement.link && (
+                                      <a 
+                                        href={achievement.link} 
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-1 ml-2 text-primary hover:text-primary/80 transition-colors"
+                                      >
+                                        <span className="text-sm font-medium">View</span>
+                                        <ExternalLink className="w-3.5 h-3.5" />
                                       </a>
-                                    </Button>
-                                  )}
+                                    )}
+                                  </span>
                                 </li>
                               ))}
                             </ul>
