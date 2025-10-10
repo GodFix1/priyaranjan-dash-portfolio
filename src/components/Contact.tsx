@@ -27,14 +27,14 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "priyaranjan@example.com",
-      link: "mailto:priyaranjan@example.com",
+      value: "papul1612@gmail.com",
+      link: "mailto:papul1612@gmail.com",
     },
     {
       icon: Linkedin,
       title: "LinkedIn",
-      value: "linkedin.com/in/priyaranjandash",
-      link: "https://linkedin.com/in/priyaranjandash",
+      value: "linkedin.com/in/priyaranjan-dash-0b0417174",
+      link: "https://www.linkedin.com/in/priyaranjan-dash-0b0417174/",
     },
     {
       icon: MessageCircle,
