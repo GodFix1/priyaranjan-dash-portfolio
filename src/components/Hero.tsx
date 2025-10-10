@@ -68,8 +68,7 @@ const Hero = () => {
               </a>
               <a
                 href="/Priyaranjan_Dash.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                download
                 className="p-3 rounded-full bg-card hover:bg-primary hover:text-primary-foreground transition-all shadow-sm hover:shadow-md"
               >
                 <FileText className="w-5 h-5" />
