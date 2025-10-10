@@ -16,7 +16,7 @@ const Projects = () => {
         "Built a hyperlocal platform for doorstep mobile repair services with transparent pricing, technician tracking, and secure customer data handling. Designed the end-to-end system architecture, integrating AI-driven content, SEO optimization, and automated workflows for bookings and customer communication.",
       image: godfixImage,
       technologies: ["React", "Supabase", "Deno", "AWS", "PostgreSQL", "Netlify"],
-      liveUrl: "https://demo.example.com",
+      liveUrl: "https://godfix.in/",
       githubUrl: "https://github.com/priyaranjandash/godfix",
     },
     {
@@ -98,12 +98,6 @@ const Projects = () => {
                       <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="w-4 h-4 mr-2" />
                         Live Demo
-                      </a>
-                    </Button>
-                    <Button size="sm" variant="outline" asChild>
-                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                        <Github className="w-4 h-4 mr-2" />
-                        Code
                       </a>
                     </Button>
                   </div>
