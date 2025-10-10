@@ -16,10 +16,10 @@ const Experience = () => {
             "Implemented service & repository patterns, improving code maintainability and reducing bugs.",
             "Optimized C# EF queries, improving database performance and scalability by 30%+.",
             "Migrated systems from SQL Server to PostgreSQL with seamless data transition.",
-            "Developed a React-based automation solution for Helix ticket verification, reducing manual effort by 90%."
+            "Developed a React-based automation solution for Helix ticket verification, reducing manual effort by 90%.",
           ],
-        }
-      ]
+        },
+      ],
     },
     {
       company: "Accenture Solutions Private Limited",
@@ -34,30 +34,28 @@ const Experience = () => {
             "Designed and implemented RESTful APIs, ensuring secure and efficient data exchange.",
             "Optimized stored procedures in SQL, improving data operation reliability by 35%.",
             "Enhanced UI/UX, fixing bugs and improving accessibility.",
-            "Took ownership of end-to-end web pages from backend to frontend, ensuring timely delivery."
+            "Took ownership of end-to-end web pages from backend to frontend, ensuring timely delivery.",
           ],
         },
         {
           title: "App Automation Engineer Analyst",
-          description:
-            "Specialized in automation testing and continuous integration for enterprise applications.",
+          description: "Specialized in automation testing and continuous integration for enterprise applications.",
           achievements: [
-            "Developed automated test scripts using Java and Selenium (MVC pattern), reducing testing effort by 50%.",
+            "Developed automated test scripts using Java and Selenium (MVC pattern), reducing manual testing effort by 50%.",
             "Integrated automation scripts into CI/CD pipeline, improving deployment efficiency.",
-            "Provided training and documentation to team, fostering continuous improvement."
+            "Provided training and documentation to team, fostering continuous improvement.",
           ],
         },
         {
           title: "Quality Engineering Associate",
-          description:
-            "Focused on quality assurance and manual testing following Agile methodology.",
+          description: "Focused on quality assurance and manual testing following Agile methodology.",
           achievements: [
             "Conducted manual testing and regression tests following Agile methodology.",
-            "Collaborated with developers to resolve issues promptly while ensuring compliance with quality standards."
+            "Collaborated with developers to resolve issues promptly while ensuring compliance with quality standards.",
           ],
-        }
-      ]
-    }
+        },
+      ],
+    },
   ];
 
   return (
@@ -68,9 +66,7 @@ const Experience = () => {
             Work <span className="text-primary">Experience</span>
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full mb-4"></div>
-          <p className="text-muted-foreground text-lg">
-            My professional journey and key achievements
-          </p>
+          <p className="text-muted-foreground text-lg">My professional journey and key achievements</p>
         </div>
 
         <div className="relative">
@@ -100,9 +96,7 @@ const Experience = () => {
                     {exp.roles.map((role, roleIndex) => (
                       <div key={roleIndex} className={roleIndex > 0 ? "mt-6 pt-6 border-t border-border" : ""}>
                         <h4 className="text-lg font-semibold mb-2">{role.title}</h4>
-                        {role.description && (
-                          <p className="text-muted-foreground mb-4">{role.description}</p>
-                        )}
+                        {role.description && <p className="text-muted-foreground mb-4">{role.description}</p>}
 
                         {role.achievements && role.achievements.length > 0 && (
                           <div>
