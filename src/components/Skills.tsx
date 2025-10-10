@@ -22,14 +22,7 @@ const Skills = () => {
     {
       icon: Wrench,
       title: "Testing & Quality",
-      skills: [
-        "Selenium WebDriver",
-        "TestNG",
-        "Automation Frameworks",
-        "Unit Testing",
-        "Integration Testing",
-        "Manual Testing",
-      ],
+      skills: ["Selenium WebDriver", "TestNG", "Automation Frameworks", "Unit Testing", "Manual Testing"],
     },
     {
       icon: Layers,
