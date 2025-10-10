@@ -43,7 +43,7 @@ const Experience = () => {
 
   return (
     <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8 bg-accent">
-      <div className="container mx-auto max-w-6xl">
+      <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-4xl font-bold mb-4">
             Work <span className="text-primary">Experience</span>
@@ -55,63 +55,45 @@ const Experience = () => {
         </div>
 
         <div className="relative">
-          {/* Center timeline line */}
-          <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-border -translate-x-1/2 hidden md:block"></div>
+          <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-primary/30 hidden md:block"></div>
 
-          <div className="space-y-12">
+          <div className="space-y-8">
             {experiences.map((exp, index) => (
               <div key={index} className="relative">
-                {/* Timeline dot */}
-                <div className="absolute left-1/2 top-8 w-4 h-4 bg-primary rounded-full border-4 border-background -translate-x-1/2 z-10 hidden md:block"></div>
+                <div className="absolute left-6 top-6 w-5 h-5 bg-primary rounded-full border-4 border-background hidden md:block"></div>
 
-                {/* Alternating layout */}
-                <div
-                  className={`grid md:grid-cols-2 gap-8 items-start ${
-                    index % 2 === 0 ? "" : "md:grid-flow-dense"
-                  }`}
+                <Card
+                  className="md:ml-20 hover:shadow-lg transition-all duration-300 bg-card"
+                  style={{ boxShadow: "var(--shadow-card)" }}
                 >
-                  {/* Card */}
-                  <div className={index % 2 === 0 ? "md:col-start-2" : "md:col-start-1"}>
-                    <Card
-                      className="hover:shadow-lg transition-all duration-300 bg-card"
-                      style={{ boxShadow: "var(--shadow-card)" }}
-                    >
-                      <CardContent className="p-6">
-                        <div className="flex items-start justify-between mb-4 gap-4">
-                          <div className="flex items-center gap-2 text-primary">
-                            <Briefcase className="w-5 h-5 flex-shrink-0" />
-                            <h3 className="text-lg font-bold">{exp.company}</h3>
-                          </div>
-                          <div className="flex items-center gap-2 text-muted-foreground text-sm flex-shrink-0">
-                            <Calendar className="w-4 h-4" />
-                            <span className="whitespace-nowrap">{exp.duration}</span>
-                          </div>
-                        </div>
+                  <CardContent className="p-6">
+                    <div className="flex flex-wrap items-start justify-between mb-4 gap-2">
+                      <div className="flex items-center gap-2 text-primary">
+                        <Briefcase className="w-5 h-5" />
+                        <h3 className="text-xl font-bold">{exp.company}</h3>
+                      </div>
+                      <div className="flex items-center gap-2 text-muted-foreground text-sm">
+                        <Calendar className="w-4 h-4" />
+                        <span>{exp.duration}</span>
+                      </div>
+                    </div>
 
-                        <h4 className="text-xl font-bold mb-3">{exp.role}</h4>
-                        <p className="text-muted-foreground mb-4">{exp.description}</p>
+                    <h4 className="text-lg font-semibold mb-3">{exp.role}</h4>
+                    <p className="text-muted-foreground mb-4">{exp.description}</p>
 
-                        <div>
-                          <h5 className="font-semibold mb-3">Key Achievements:</h5>
-                          <ul className="space-y-2">
-                            {exp.achievements.map((achievement, achIndex) => (
-                              <li
-                                key={achIndex}
-                                className="flex items-start gap-2 text-muted-foreground"
-                              >
-                                <span className="text-primary mt-1 font-bold">•</span>
-                                <span>{achievement}</span>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  </div>
-
-                  {/* Empty space for alternating */}
-                  <div className={`hidden md:block ${index % 2 === 0 ? "md:col-start-1" : "md:col-start-2"}`}></div>
-                </div>
+                    <div>
+                      <h5 className="font-semibold mb-2">Key Achievements:</h5>
+                      <ul className="space-y-2">
+                        {exp.achievements.map((achievement, achIndex) => (
+                          <li key={achIndex} className="flex items-start gap-2 text-muted-foreground">
+                            <span className="text-primary mt-1">•</span>
+                            <span>{achievement}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </CardContent>
+                </Card>
               </div>
             ))}
           </div>
