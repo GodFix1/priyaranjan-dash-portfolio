@@ -38,18 +38,13 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="space-y-6 animate-slide-in">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a passionate Full Stack Developer with expertise in building modern web
-              applications. With a strong foundation in both frontend and backend technologies, I
-              create seamless user experiences backed by robust, scalable architectures.
+              From automation testing to building full-stack innovations, my journey has been driven by one thing: solving real problems with elegant technology.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              My approach combines technical excellence with creative problem-solving. I believe in
-              writing clean, maintainable code and staying updated with the latest industry trends
-              to deliver cutting-edge solutions.
+              I've had the privilege of working with enterprise leaders like Infosys and Accenture, where I modernized legacy systems, migrated databases, and built scalable web solutions. My proudest achievement, however, is creating Godfix — a platform that brings doorstep mobile repair services to thousands of users, combining full-stack engineering, automation, and AI-driven content.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              When I'm not coding, I enjoy contributing to open-source projects, learning new
-              technologies, and sharing knowledge with the developer community.
+              When I'm not coding, I'm thinking about the next big problem to solve and ways to create meaningful impact through technology.
             </p>
           </div>
 
