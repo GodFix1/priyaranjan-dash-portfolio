@@ -39,8 +39,8 @@ const Contact = () => {
     {
       icon: MessageCircle,
       title: "WhatsApp",
-      value: "+1 (234) 567-890",
-      link: "https://wa.me/1234567890",
+      value: "+91 8342869898",
+      link: "https://wa.me/918342869898",
     },
   ];
 
