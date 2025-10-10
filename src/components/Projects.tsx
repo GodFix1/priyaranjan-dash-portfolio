@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 import godfixImage from "@/assets/project-godfix.png";
 import ecommerceImage from "@/assets/project-ecommerce.jpg";
 import taskappImage from "@/assets/project-taskapp.jpg";
@@ -61,14 +62,15 @@ const Projects = () => {
               style={{ boxShadow: "var(--shadow-card)" }}
             >
               <div className="grid md:grid-cols-2 gap-6">
-                <div className="relative h-64 md:h-80 overflow-hidden">
+                <AspectRatio ratio={2.05} className="bg-muted overflow-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                    className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
                   />
-                </div>
-
+                </AspectRatio>
+                
                 <div className="p-6 flex flex-col justify-between">
                   <div>
                     <div className="mb-2">
