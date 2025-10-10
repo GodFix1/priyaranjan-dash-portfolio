@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Briefcase, Calendar } from "lucide-react";
+import { Briefcase, Calendar, ExternalLink } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Experience = () => {
   const experiences = [
@@ -12,11 +13,14 @@ const Experience = () => {
           description:
             "Led full-stack development and modernization projects for enterprise platforms, focusing on performance, scalability, and automation.",
           achievements: [
-            "Migrated legacy applications from .NET 4.6 to .NET 8 with Entity Framework, modernizing ReportAPI to WebAPI.",
-            "Implemented service & repository patterns, improving code maintainability and reducing bugs.",
-            "Optimized C# EF queries, improving database performance and scalability by 30%+.",
-            "Migrated systems from SQL Server to PostgreSQL with seamless data transition.",
-            "Developed a React-based automation solution for Helix ticket verification, reducing manual effort by 90%.",
+            { text: "Migrated legacy applications from .NET 4.6 to .NET 8 with Entity Framework, modernizing ReportAPI to WebAPI." },
+            { text: "Implemented service & repository patterns, improving code maintainability and reducing bugs." },
+            { text: "Optimized C# EF queries, improving database performance and scalability by 30%+." },
+            { text: "Migrated systems from SQL Server to PostgreSQL with seamless data transition." },
+            { 
+              text: "Developed a React-based automation solution for Helix ticket verification, reducing manual effort by 90%.",
+              link: "https://helix-ticket-hackathon.netlify.app/"
+            },
           ],
         },
       ],
@@ -30,28 +34,28 @@ const Experience = () => {
           description:
             "Worked on full-stack applications and API development, enhancing functionality, UI/UX, and data management.",
           achievements: [
-            "Developed and maintained full-stack web applications using .NET Core, Angular, C#, and SQL.",
-            "Designed and implemented RESTful APIs, ensuring secure and efficient data exchange.",
-            "Optimized stored procedures in SQL, improving data operation reliability by 35%.",
-            "Enhanced UI/UX, fixing bugs and improving accessibility.",
-            "Took ownership of end-to-end web pages from backend to frontend, ensuring timely delivery.",
+            { text: "Developed and maintained full-stack web applications using .NET Core, Angular, C#, and SQL." },
+            { text: "Designed and implemented RESTful APIs, ensuring secure and efficient data exchange." },
+            { text: "Optimized stored procedures in SQL, improving data operation reliability by 35%." },
+            { text: "Enhanced UI/UX, fixing bugs and improving accessibility." },
+            { text: "Took ownership of end-to-end web pages from backend to frontend, ensuring timely delivery." },
           ],
         },
         {
           title: "App Automation Engineer Analyst",
           description: "Specialized in automation testing and continuous integration for enterprise applications.",
           achievements: [
-            "Developed automated test scripts using Java and Selenium (MVC pattern), reducing manual testing effort by 50%.",
-            "Integrated automation scripts into CI/CD pipeline, improving deployment efficiency.",
-            "Provided training and documentation to team, fostering continuous improvement.",
+            { text: "Developed automated test scripts using Java and Selenium (MVC pattern), reducing manual testing effort by 50%." },
+            { text: "Integrated automation scripts into CI/CD pipeline, improving deployment efficiency." },
+            { text: "Provided training and documentation to team, fostering continuous improvement." },
           ],
         },
         {
           title: "Quality Engineering Associate",
           description: "Focused on quality assurance and manual testing following Agile methodology.",
           achievements: [
-            "Conducted manual testing and regression tests following Agile methodology.",
-            "Collaborated with developers to resolve issues promptly while ensuring compliance with quality standards.",
+            { text: "Conducted manual testing and regression tests following Agile methodology." },
+            { text: "Collaborated with developers to resolve issues promptly while ensuring compliance with quality standards." },
           ],
         },
       ],
@@ -105,7 +109,22 @@ const Experience = () => {
                               {role.achievements.map((achievement, achIndex) => (
                                 <li key={achIndex} className="flex items-start gap-2 text-muted-foreground">
                                   <span className="text-primary mt-1">•</span>
-                                  <span>{achievement}</span>
+                                  <span className="flex-1">
+                                    {typeof achievement === 'string' ? achievement : achievement.text}
+                                  </span>
+                                  {typeof achievement === 'object' && achievement.link && (
+                                    <Button
+                                      variant="ghost"
+                                      size="sm"
+                                      className="h-6 px-2 gap-1"
+                                      asChild
+                                    >
+                                      <a href={achievement.link} target="_blank" rel="noopener noreferrer">
+                                        <span className="text-xs">View</span>
+                                        <ExternalLink className="w-3 h-3" />
+                                      </a>
+                                    </Button>
+                                  )}
                                 </li>
                               ))}
                             </ul>
