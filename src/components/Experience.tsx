@@ -39,6 +39,8 @@ const Experience = () => {
         },
         {
           title: "App Automation Engineer Analyst",
+          description:
+            "Specialized in automation testing and continuous integration for enterprise applications.",
           achievements: [
             "Developed automated test scripts using Java and Selenium (MVC pattern), reducing testing effort by 50%.",
             "Integrated automation scripts into CI/CD pipeline, improving deployment efficiency.",
@@ -47,6 +49,8 @@ const Experience = () => {
         },
         {
           title: "Quality Engineering Associate",
+          description:
+            "Focused on quality assurance and manual testing following Agile methodology.",
           achievements: [
             "Conducted manual testing and regression tests following Agile methodology.",
             "Collaborated with developers to resolve issues promptly while ensuring compliance with quality standards."
@@ -102,7 +106,7 @@ const Experience = () => {
 
                         {role.achievements && role.achievements.length > 0 && (
                           <div>
-                            {roleIndex === 0 && <h5 className="font-semibold mb-2">Key Achievements:</h5>}
+                            <h5 className="font-semibold mb-2">Key Achievements:</h5>
                             <ul className="space-y-2">
                               {role.achievements.map((achievement, achIndex) => (
                                 <li key={achIndex} className="flex items-start gap-2 text-muted-foreground">
