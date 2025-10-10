@@ -67,7 +67,7 @@ const Projects = () => {
                     src={project.image}
                     alt={project.title}
                     loading="lazy"
-                    className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-contain"
                   />
                 </AspectRatio>
                 
