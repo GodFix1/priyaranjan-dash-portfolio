@@ -48,7 +48,7 @@ const Hero = () => {
                 href="https://github.com/priyaranjandash"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 rounded-full bg-card hover:bg-accent transition-colors shadow-sm"
+                className="p-3 rounded-full bg-card hover:bg-primary hover:text-primary-foreground transition-all shadow-sm hover:shadow-md"
               >
                 <Github className="w-5 h-5" />
               </a>
@@ -56,13 +56,13 @@ const Hero = () => {
                 href="https://linkedin.com/in/priyaranjandash"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 rounded-full bg-card hover:bg-accent transition-colors shadow-sm"
+                className="p-3 rounded-full bg-card hover:bg-primary hover:text-primary-foreground transition-all shadow-sm hover:shadow-md"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
                 href="mailto:priyaranjan@example.com"
-                className="p-3 rounded-full bg-card hover:bg-accent transition-colors shadow-sm"
+                className="p-3 rounded-full bg-card hover:bg-primary hover:text-primary-foreground transition-all shadow-sm hover:shadow-md"
               >
                 <Mail className="w-5 h-5" />
               </a>
@@ -70,7 +70,7 @@ const Hero = () => {
                 href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 rounded-full bg-card hover:bg-accent transition-colors shadow-sm"
+                className="p-3 rounded-full bg-card hover:bg-primary hover:text-primary-foreground transition-all shadow-sm hover:shadow-md"
               >
                 <FileText className="w-5 h-5" />
               </a>
