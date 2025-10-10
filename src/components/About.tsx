@@ -44,7 +44,7 @@ const About = () => {
               I've had the privilege of working with enterprise leaders like <span className="text-black dark:text-white font-semibold">Infosys and Accenture</span>, where I modernized legacy systems, migrated databases, and built scalable web solutions. My proudest achievement, however, is <span className="text-black dark:text-white font-semibold">creating Godfix</span> — a platform that brings <span className="text-black dark:text-white font-semibold">doorstep mobile repair services</span> to thousands of users, combining <span className="text-black dark:text-white font-semibold">full-stack engineering, automation, and AI-driven content</span>.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              When I'm not coding, I'm thinking about the next big problem to solve and ways to create meaningful impact through technology.
+              When I'm not coding, I'm thinking about the <span className="text-black dark:text-white font-semibold">next big problem to solve</span> and ways to create meaningful impact through technology.
             </p>
           </div>
 
