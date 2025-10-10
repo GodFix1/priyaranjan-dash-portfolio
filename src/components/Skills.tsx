@@ -12,7 +12,7 @@ const Skills = () => {
     {
       icon: Database,
       title: "Backend",
-      skills: [".NET Core", "REST APIs", "PostgreSQL", "SQL", "Microservices", "Deno"],
+      skills: [".NET Core", "REST APIs", "SQL", "PostgreSQL", "Microservices", "Deno"],
     },
     {
       icon: Cloud,
