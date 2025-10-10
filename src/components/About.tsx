@@ -38,10 +38,10 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="space-y-6 animate-slide-in">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              From <span className="text-primary font-semibold">automation testing to building full-stack innovations</span>, my journey has been driven by one thing: <span className="text-primary font-semibold">solving real problems with elegant technology</span>.
+              From <span className="text-black dark:text-white font-semibold">automation testing to building full-stack innovations</span>, my journey has been driven by one thing: <span className="text-black dark:text-white font-semibold">solving real problems with elegant technology</span>.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I've had the privilege of working with enterprise leaders like <span className="text-primary font-semibold">Infosys and Accenture</span>, where I modernized legacy systems, migrated databases, and built scalable web solutions. My proudest achievement, however, is <span className="text-primary font-semibold">creating Godfix</span> — a platform that brings <span className="text-primary font-semibold">doorstep mobile repair services</span> to thousands of users, combining <span className="text-primary font-semibold">full-stack engineering, automation, and AI-driven content</span>.
+              I've had the privilege of working with enterprise leaders like <span className="text-black dark:text-white font-semibold">Infosys and Accenture</span>, where I modernized legacy systems, migrated databases, and built scalable web solutions. My proudest achievement, however, is <span className="text-black dark:text-white font-semibold">creating Godfix</span> — a platform that brings <span className="text-black dark:text-white font-semibold">doorstep mobile repair services</span> to thousands of users, combining <span className="text-black dark:text-white font-semibold">full-stack engineering, automation, and AI-driven content</span>.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               When I'm not coding, I'm thinking about the next big problem to solve and ways to create meaningful impact through technology.
