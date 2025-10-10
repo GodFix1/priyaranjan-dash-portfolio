@@ -13,7 +13,7 @@ const Projects = () => {
       title: "Doorstep Mobile Repair Platform",
       role: "Lead Developer",
       description:
-        "Built a hyperlocal platform for doorstep mobile repair services with transparent pricing, technician tracking, and secure customer data handling. Designed the end-to-end system architecture, integrating AI-driven content, SEO optimization, and automated workflows for bookings and customer communication.",
+        "Built a hyperlocal platform for doorstep mobile repair services offering 20+ types of phone repairs, with transparent pricing and secure customer data handling. Designed the end-to-end system architecture, integrating AI-driven content, SEO optimization, and automated workflows for bookings and customer communication.",
       image: godfixImage,
       technologies: ["React", "Supabase", "Deno", "AWS", "PostgreSQL", "Netlify"],
       liveUrl: "https://godfix.in/",
@@ -49,9 +49,7 @@ const Projects = () => {
             Featured <span className="text-primary">Projects</span>
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full mb-4"></div>
-          <p className="text-muted-foreground text-lg">
-            A showcase of my recent work and contributions
-          </p>
+          <p className="text-muted-foreground text-lg">A showcase of my recent work and contributions</p>
         </div>
 
         <div className="space-y-8">
@@ -62,7 +60,7 @@ const Projects = () => {
               style={{ boxShadow: "var(--shadow-card)" }}
             >
               <div className="grid md:grid-cols-2 gap-6">
-                <AspectRatio ratio={16/9} className="bg-muted overflow-hidden">
+                <AspectRatio ratio={16 / 9} className="bg-muted overflow-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
@@ -70,7 +68,7 @@ const Projects = () => {
                     className="w-full h-full object-contain"
                   />
                 </AspectRatio>
-                
+
                 <div className="p-6 flex flex-col justify-between">
                   <div>
                     <div className="mb-2">
@@ -90,11 +88,7 @@ const Projects = () => {
                   </div>
 
                   <div className="flex gap-3">
-                    <Button
-                      size="sm"
-                      className="bg-primary hover:bg-primary/90"
-                      asChild
-                    >
+                    <Button size="sm" className="bg-primary hover:bg-primary/90" asChild>
                       <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="w-4 h-4 mr-2" />
                         Live Demo
