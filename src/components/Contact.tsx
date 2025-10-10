@@ -142,7 +142,7 @@ const Contact = () => {
                   className="bg-white text-primary hover:bg-white/90"
                   asChild
                 >
-                  <a href="/resume.pdf" download>
+                  <a href="/Priyaranjan_Dash.pdf" download>
                     <Download className="w-4 h-4 mr-2" />
                     Download CV
                   </a>
