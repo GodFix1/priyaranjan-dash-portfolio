@@ -38,10 +38,10 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="space-y-6 animate-slide-in">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              From automation testing to building full-stack innovations, my journey has been driven by one thing: solving real problems with elegant technology.
+              From <span className="text-primary font-semibold">automation testing to building full-stack innovations</span>, my journey has been driven by one thing: <span className="text-primary font-semibold">solving real problems with elegant technology</span>.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I've had the privilege of working with enterprise leaders like Infosys and Accenture, where I modernized legacy systems, migrated databases, and built scalable web solutions. My proudest achievement, however, is creating Godfix — a platform that brings doorstep mobile repair services to thousands of users, combining full-stack engineering, automation, and AI-driven content.
+              I've had the privilege of working with enterprise leaders like <span className="text-primary font-semibold">Infosys and Accenture</span>, where I modernized legacy systems, migrated databases, and built scalable web solutions. My proudest achievement, however, is <span className="text-primary font-semibold">creating Godfix</span> — a platform that brings <span className="text-primary font-semibold">doorstep mobile repair services</span> to thousands of users, combining <span className="text-primary font-semibold">full-stack engineering, automation, and AI-driven content</span>.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               When I'm not coding, I'm thinking about the next big problem to solve and ways to create meaningful impact through technology.
