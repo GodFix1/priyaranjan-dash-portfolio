@@ -14,7 +14,7 @@ const Projects = () => {
       description:
         "Built a hyperlocal platform for doorstep mobile repair services with transparent pricing, technician tracking, and secure customer data handling. Designed the end-to-end system architecture, integrating AI-driven content, SEO optimization, and automated workflows for bookings and customer communication.",
       image: godfixImage,
-      technologies: ["React", "Supabase", "Deno", "AWS", "PostgreSQL", ".NET 8", "Netlify"],
+      technologies: ["React", "Supabase", "Deno", "AWS", "PostgreSQL", "Netlify"],
       liveUrl: "https://demo.example.com",
       githubUrl: "https://github.com/priyaranjandash/godfix",
     },
