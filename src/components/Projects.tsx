@@ -19,7 +19,7 @@ const Projects = () => {
       liveUrl: "https://godfix.in/",
       githubUrl: "https://github.com/priyaranjandash/godfix",
     },
-    {
+    /* {
       title: "E-Commerce Platform",
       role: "Full Stack Developer",
       description:
@@ -39,6 +39,7 @@ const Projects = () => {
       liveUrl: "https://tasks.example.com",
       githubUrl: "https://github.com/priyaranjandash/taskapp",
     },
+    */
   ];
 
   return (
