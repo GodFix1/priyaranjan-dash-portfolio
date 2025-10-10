@@ -61,11 +61,11 @@ const Projects = () => {
               style={{ boxShadow: "var(--shadow-card)" }}
             >
               <div className="grid md:grid-cols-2 gap-6">
-                <div className="relative h-64 md:h-80 overflow-hidden bg-muted">
+                <div className="relative h-64 md:h-80 overflow-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>
 
