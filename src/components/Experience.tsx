@@ -4,41 +4,44 @@ import { Briefcase, Calendar } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      company: "Tech Innovations Inc.",
-      role: "Senior Full Stack Developer",
-      duration: "Jan 2022 - Present",
+      company: "Infosys Limited",
+      role: "Senior Associate Consultant",
+      duration: "Dec 2024 - Present",
       description:
-        "Leading development of enterprise-scale applications. Architected microservices infrastructure serving 100K+ users. Mentored junior developers and established coding standards.",
+        "Led full-stack development and modernization projects for enterprise platforms, focusing on performance, scalability, and automation.",
       achievements: [
-        "Reduced API response time by 45% through optimization",
-        "Led migration to cloud infrastructure, cutting costs by 30%",
-        "Implemented CI/CD pipeline, improving deployment speed by 60%",
+        "Migrated legacy applications from .NET 4.6 to .NET 8 with Entity Framework, modernizing ReportAPI to WebAPI.",
+        "Implemented service & repository patterns, improving code maintainability and reducing bugs.",
+        "Optimized C# EF queries, improving database performance and scalability by 30%+.",
+        "Migrated systems from SQL Server to PostgreSQL with seamless data transition."
+        "Developed a React-based automation solution for Helix ticket verification, reducing manual effort by 90%."
       ],
     },
     {
-      company: "Digital Solutions Ltd.",
-      role: "Full Stack Developer",
-      duration: "Jun 2020 - Dec 2021",
+      company: "Accenture Solutions Private Limited",
+      role: "Custom Software Engineering Analyst",
+      duration: "Jun 2021 - Dec 2024",
       description:
-        "Developed and maintained multiple client projects using modern tech stack. Collaborated with cross-functional teams to deliver high-quality solutions on time.",
+        "Worked on full-stack applications and API development, enhancing functionality, UI/UX, and data management.",
       achievements: [
-        "Built 15+ responsive web applications",
-        "Improved application performance by 35%",
-        "Reduced bug reports by 40% through comprehensive testing",
+        "Developed and maintained full-stack web applications using .NET Core, Angular, C#, and SQL.",
+        "Designed and implemented RESTful APIs, ensuring secure and efficient data exchange.",
+        "Optimized stored procedures in SQL, improving data operation reliability by 35%.",
+        "Enhanced UI/UX, fixing bugs and improving accessibility.",
+        "Took ownership of end-to-end web pages from backend to frontend, ensuring timely delivery."
       ],
-    },
-    {
-      company: "Creative Web Co.",
-      role: "Junior Developer",
-      duration: "Jan 2019 - May 2020",
-      description:
-        "Started career building dynamic websites and web applications. Worked closely with designers and senior developers to create engaging user experiences.",
+       role: "App Automation Engineer Analyst",
       achievements: [
-        "Successfully delivered 20+ client projects",
-        "Learned and implemented modern JavaScript frameworks",
-        "Contributed to improving team development workflow",
+        "Developed automated test scripts using Java and Selenium (MVC pattern), reducing manual testing effort by 50%.",
+        "Integrated automation scripts into CI/CD pipeline, improving deployment efficiency.",
+        "Provided training and documentation to team, fostering continuous improvement.",
       ],
-    },
+      role: "Quality Engineering Associate",
+       achievements: [
+        "Conducted manual testing and regression tests following Agile methodology.",
+        "Collaborated with developers to resolve issues promptly while ensuring compliance with quality standards."
+      ],
+    }
   ];
 
   return (
