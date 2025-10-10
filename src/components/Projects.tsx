@@ -2,21 +2,21 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
-import dashboardImage from "@/assets/project-dashboard.jpg";
+import godfixImage from "@/assets/project-godfix.png";
 import ecommerceImage from "@/assets/project-ecommerce.jpg";
 import taskappImage from "@/assets/project-taskapp.jpg";
 
 const Projects = () => {
   const projects = [
     {
-      title: "Enterprise Dashboard Platform",
+      title: "Doorstep Mobile Repair Platform",
       role: "Lead Developer",
       description:
-        "Built a comprehensive analytics dashboard for enterprise clients with real-time data visualization, custom reporting, and role-based access control. Improved data processing speed by 40%.",
-      image: dashboardImage,
-      technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "AWS"],
+        "Built a hyperlocal platform for doorstep mobile repair services with transparent pricing, technician tracking, and secure customer data handling. Designed the end-to-end system architecture, integrating AI-driven content, SEO optimization, and automated workflows for bookings and customer communication.",
+      image: godfixImage,
+      technologies: ["React", "Supabase", "Deno", "AWS", "PostgreSQL", ".NET 8", "Netlify"],
       liveUrl: "https://demo.example.com",
-      githubUrl: "https://github.com/priyaranjandash/dashboard",
+      githubUrl: "https://github.com/priyaranjandash/godfix",
     },
     {
       title: "E-Commerce Platform",
