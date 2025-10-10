@@ -20,37 +20,19 @@ const Experience = () => {
     {
       company: "Accenture Solutions Private Limited",
       role: "Custom Software Engineering Analyst",
-      duration: "Jun 2023 - Dec 2024",
+      duration: "Jun 2021 - Dec 2024",
       description:
-        "Worked on full-stack applications and API development, enhancing functionality, UI/UX, and data management.",
+        "Progressed through multiple roles, working on full-stack development, automation testing, and quality assurance.",
       achievements: [
-        "Developed and maintained full-stack web applications using .NET Core, Angular, C#, and SQL.",
+        "Custom Software Engineering Analyst (Jun 2023 - Dec 2024): Developed and maintained full-stack web applications using .NET Core, Angular, C#, and SQL.",
         "Designed and implemented RESTful APIs, ensuring secure and efficient data exchange.",
         "Optimized stored procedures in SQL, improving data operation reliability by 35%.",
         "Enhanced UI/UX, fixing bugs and improving accessibility.",
-        "Took ownership of end-to-end web pages from backend to frontend, ensuring timely delivery."
-      ],
-    },
-    {
-      company: "Accenture Solutions Private Limited",
-      role: "App Automation Engineer Analyst",
-      duration: "Jun 2022 - May 2023",
-      description:
-        "Specialized in automation testing and continuous integration for enterprise applications.",
-      achievements: [
-        "Developed automated test scripts using Java and Selenium (MVC pattern), reducing manual testing effort by 50%.",
+        "Took ownership of end-to-end web pages from backend to frontend, ensuring timely delivery.",
+        "App Automation Engineer Analyst (Jun 2022 - May 2023): Developed automated test scripts using Java and Selenium (MVC pattern), reducing manual testing effort by 50%.",
         "Integrated automation scripts into CI/CD pipeline, improving deployment efficiency.",
         "Provided training and documentation to team, fostering continuous improvement.",
-      ],
-    },
-    {
-      company: "Accenture Solutions Private Limited",
-      role: "Quality Engineering Associate",
-      duration: "Jun 2021 - May 2022",
-      description:
-        "Focused on quality assurance and manual testing following Agile methodology.",
-      achievements: [
-        "Conducted manual testing and regression tests following Agile methodology.",
+        "Quality Engineering Associate (Jun 2021 - May 2022): Conducted manual testing and regression tests following Agile methodology.",
         "Collaborated with developers to resolve issues promptly while ensuring compliance with quality standards."
       ],
     }
