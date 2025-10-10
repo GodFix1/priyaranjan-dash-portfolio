@@ -62,12 +62,12 @@ const Projects = () => {
               style={{ boxShadow: "var(--shadow-card)" }}
             >
               <div className="grid md:grid-cols-2 gap-6">
-                <AspectRatio ratio={2.05} className="bg-muted overflow-hidden">
+                <AspectRatio ratio={16/9} className="bg-muted overflow-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
                     loading="lazy"
-                    className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500"
                   />
                 </AspectRatio>
                 
