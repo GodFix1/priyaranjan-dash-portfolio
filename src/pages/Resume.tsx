@@ -48,7 +48,7 @@ const Resume = () => {
             </div>
             <div className="flex items-center gap-2">
               <Globe className="w-4 h-4" />
-              <a href="https://godfix.in" target="_blank" rel="noopener noreferrer" className="hover:text-primary">godfix.in</a>
+              <a href="https://priyaranjandash.netlify.app" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Portfolio</a>
             </div>
           </div>
         </header>
