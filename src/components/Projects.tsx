@@ -24,7 +24,7 @@ const Projects = () => {
       title: "RiseToWin - Goal & Habit Tracker",
       role: "Full Stack Developer",
       description:
-        "Engineered a productivity dashboard with offline-first data storage to track goals, tasks, health, and daily reflections - helping hundreds of users stay organized and consistent. Integrated calendar and progress tracking features, enabling users to build habits, stay focused, and achieve their personal and professional objectives.",
+        "Engineered a privacy-first productivity application with local data storage to track goals, tasks, health, and daily reflections - helping hundreds of users stay organized and consistent. Integrated calendar and progress tracking features, enabling users to build habits, stay focused, and achieve their personal and professional objectives.",
       image: risetowinImage,
       technologies: ["React", "TypeScript", "Tailwind CSS", "LocalStorage", "Netlify"],
       liveUrl: "https://risetowin.netlify.app/",
