@@ -32,7 +32,7 @@ const Resume = () => {
           <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray-600">
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4" />
-              <a href="mailto:papul1612@gmail.com" className="hover:text-primary">papul1612@gmail.com</a>
+              <a href="mailto:priyaranjan.dev01@gmail.com" className="hover:text-primary">priyaranjan.dev01@gmail.com</a>
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4" />
