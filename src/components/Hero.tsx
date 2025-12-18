@@ -44,9 +44,9 @@ const Hero = () => {
             </div>
 
             <div className="flex gap-4 pt-4">
-              <a
-                href="https://github.com/priyaranjandash"
-                target="_blank"
+             <a
+                href="#"
+                onClick={(e) => e.preventDefault()}
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-card hover:bg-primary hover:text-primary-foreground transition-all shadow-sm hover:shadow-md"
               >
