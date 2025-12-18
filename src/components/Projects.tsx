@@ -6,6 +6,7 @@ import { AspectRatio } from "@/components/ui/aspect-ratio";
 import godfixImage from "@/assets/project-godfix.png";
 import ecommerceImage from "@/assets/project-ecommerce.jpg";
 import taskappImage from "@/assets/project-taskapp.jpg";
+import risetowinImage from "@/assets/project-risetowin.png";
 
 const Projects = () => {
   const projects = [
@@ -18,6 +19,16 @@ const Projects = () => {
       technologies: ["React", "Supabase", "Deno", "AWS", "PostgreSQL", "Netlify"],
       liveUrl: "https://godfix.in/",
       githubUrl: "https://github.com/priyaranjandash/godfix",
+    },
+    {
+      title: "RiseToWin - Goal & Habit Tracker",
+      role: "Full Stack Developer",
+      description:
+        "Engineered a productivity dashboard with offline-first data storage to track goals, tasks, health, and daily reflections - helping hundreds of users stay organized and consistent. Integrated calendar and progress tracking features, enabling users to build habits, stay focused, and achieve their personal and professional objectives.",
+      image: risetowinImage,
+      technologies: ["React", "TypeScript", "Tailwind CSS", "LocalStorage", "Netlify"],
+      liveUrl: "https://risetowin.netlify.app/",
+      githubUrl: "https://github.com/priyaranjandash/risetowin",
     },
     /* {
       title: "E-Commerce Platform",
