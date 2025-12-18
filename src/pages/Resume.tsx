@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Download, Mail, Phone, Linkedin, Code2, Globe } from "lucide-react";
+import { Download, Mail, Phone, Linkedin, Github, MapPin, Globe } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const Resume = () => {
@@ -16,14 +16,9 @@ const Resume = () => {
         <Button onClick={() => navigate("/")} variant="outline">
           Back to Portfolio
         </Button>
-        <Button onClick={handlePrint} variant="outline">
-          Print Page
-        </Button>
-        <Button asChild className="bg-primary">
-          <a href="/Priyaranjan_Dash.pdf" download>
-            <Download className="w-4 h-4 mr-2" />
-            Download CV
-          </a>
+        <Button onClick={handlePrint} className="bg-primary">
+          <Download className="w-4 h-4 mr-2" />
+          Print / Save as PDF
         </Button>
       </div>
 
@@ -48,7 +43,7 @@ const Resume = () => {
               <a href="https://www.linkedin.com/in/priyaranjan-dash-0b0417174/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">LinkedIn Profile</a>
             </div>
             <div className="flex items-center gap-2">
-              <Code2 className="w-4 h-4" />
+              <Github className="w-4 h-4" />
               <a href="https://github.com/priyaranjandash" target="_blank" rel="noopener noreferrer" className="hover:text-primary">GitHub Profile</a>
             </div>
             <div className="flex items-center gap-2">

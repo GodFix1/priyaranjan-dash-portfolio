@@ -13,11 +13,10 @@ const Experience = () => {
           description:
             "Led full-stack development and modernization projects for enterprise platforms, focusing on performance, scalability, and automation.",
           achievements: [
-            { text: "Migrated legacy applications from .NET 4.6 to .NET 8 with Entity Framework, modernizing the backend system." },
-            { text: "Upgraded front-end from AngularJS 1.6 to Angular 20, enhancing performance and UX across 50+ screens."},
-            { text: "Improved code quality by implementing service and repository patterns, lowering bug rate by 25%." },
+            { text: "Migrated legacy applications from .NET 4.6 to .NET 8 with Entity Framework, modernizing ReportAPI to WebAPI." },
+            { text: "Implemented service & repository patterns, improving code maintainability and reducing bugs." },
             { text: "Optimized C# EF queries, improving database performance and scalability by 30%+." },
-            { text: "Led database migration from SQL Server to PostgreSQL, ensuring data integrity and zero downtime."},
+            { text: "Migrated systems from SQL Server to PostgreSQL with seamless data transition." },
             { 
               text: "Developed a React-based automation solution for Helix ticket verification, reducing manual effort by 90%.",
               link: "https://helix-ticket-hackathon.netlify.app/"
@@ -38,7 +37,7 @@ const Experience = () => {
             { text: "Developed and maintained full-stack web applications using .NET Core, Angular, C#, and SQL." },
             { text: "Designed and implemented RESTful APIs, ensuring secure and efficient data exchange." },
             { text: "Optimized stored procedures in SQL, improving data operation reliability by 35%." },
-            { text: "Redesigned UI/UX components and fixed critical bugs, boosting user engagement and satisfaction." },
+            { text: "Enhanced UI/UX, fixing bugs and improving accessibility." },
             { text: "Took ownership of end-to-end web pages from backend to frontend, ensuring timely delivery." },
           ],
         },
@@ -46,7 +45,7 @@ const Experience = () => {
           title: "App Automation Engineer Analyst",
           description: "Specialized in automation testing and continuous integration for enterprise applications.",
           achievements: [
-            { text: "Developed automated test scripts using Java and Selenium (MVC pattern), reducing manual testing effort by 70%." },
+            { text: "Developed automated test scripts using Java and Selenium (MVC pattern), reducing manual testing effort by 50%." },
             { text: "Integrated automation scripts into CI/CD pipeline, improving deployment efficiency." },
             { text: "Provided training and documentation to team, fostering continuous improvement." },
           ],
