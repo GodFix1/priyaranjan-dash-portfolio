@@ -28,7 +28,7 @@ const Resume = () => {
         <header className="mb-8 border-b-2 border-gray-300 pb-6">
           <h1 className="text-4xl font-bold mb-2 text-gray-900">Priyaranjan Dash</h1>
           <h2 className="text-xl text-gray-700 mb-4">Full Stack Developer & Tech Innovator</h2>
-          
+
           <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray-600">
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4" />
@@ -95,7 +95,7 @@ const Resume = () => {
         {/* Professional Experience */}
         <section className="mb-8">
           <h3 className="text-2xl font-bold mb-4 text-gray-900 border-b border-gray-300 pb-2">Professional Experience</h3>
-          
+
           {/* Infosys */}
           <div className="mb-6">
             <div className="flex justify-between items-start mb-2">
@@ -107,7 +107,7 @@ const Resume = () => {
             </div>
             <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm ml-2">
               <li>Led full-stack development and modernization projects for enterprise platforms, focusing on performance, scalability, and automation</li>
-              <li>Migrated legacy applications from .NET 4.6 to .NET 8 with Entity Framework, modernizing ReportAPI to WebAPI</li>
+              <li>Migrated legacy applications from .NET 4.6 to .NET 8 with Entity Framework, modernizing ReportAPI and WebAPI</li>
               <li>Implemented service & repository patterns, improving code maintainability and reducing bugs</li>
               <li>Optimized C# EF queries, improving database performance and scalability by 30%+</li>
               <li>Migrated systems from SQL Server to PostgreSQL with seamless data transition</li>
@@ -168,14 +168,14 @@ const Resume = () => {
         {/* Key Projects */}
         <section className="mb-8">
           <h3 className="text-2xl font-bold mb-3 text-gray-900 border-b border-gray-300 pb-2">Key Projects</h3>
-          
+
           <div className="mb-4">
             <div className="flex justify-between items-start mb-2">
               <h4 className="text-lg font-bold text-gray-900">Godfix - Doorstep Mobile Repair Platform</h4>
               <span className="text-gray-600 text-sm">Lead Developer</span>
             </div>
             <p className="text-gray-700 text-sm mb-2">
-              Built a hyperlocal platform for doorstep mobile repair services offering 20+ types of phone repairs, with transparent pricing and secure customer data handling. Designed the end-to-end system architecture, integrating AI-driven content, SEO optimization, and automated workflows for bookings and customer communication.
+              Architected and deployed a highly performant, hyperlocal doorstep mobile repair platform supporting 20+ repair types with automated booking pipelines and secure transaction layers. Integrated AI-driven diagnostic content and structured SEO strategies that significantly boosted organic search visibility, user conversion rates, and streamlined communication flows.
             </p>
             <p className="text-gray-600 text-sm">
               <span className="font-semibold">Technologies:</span> React, Supabase, Deno, AWS, PostgreSQL, Netlify
@@ -198,6 +198,32 @@ const Resume = () => {
             </p>
             <p className="text-gray-600 text-sm">
               <span className="font-semibold">Live:</span> <a href="https://helix-ticket-hackathon.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">helix-ticket-hackathon.netlify.app</a>
+            </p>
+          </div>
+
+          <div className="mb-4">
+            <div className="flex justify-between items-start mb-2">
+              <h4 className="text-lg font-bold text-gray-900">EngineerOS – Developer Productivity & Incident Command Center</h4>
+              <span className="text-gray-600 text-sm">Lead Developer</span>
+            </div>
+            <p className="text-gray-700 text-sm mb-2">
+              Developed a comprehensive developer workstation dashboard that acts as an incident command center. Features interactive incident tracking by severity, streamlined Root-Cause Analysis (RCA) logs, and focus-time analytics. Built integrated hubs for persistent architectural docs, code snippet storage, and a vector-based digital whiteboard for live system sketching, accelerating daily production support throughput.
+            </p>
+            <p className="text-gray-600 text-sm">
+              <span className="font-semibold">Technologies:</span> React, TypeScript, Tailwind CSS, LocalStorage, Vercel
+            </p>
+          </div>
+
+          <div className="mb-4">
+            <div className="flex justify-between items-start mb-2">
+              <h4 className="text-lg font-bold text-gray-900">Sovereign Studies – AI-Powered Content Platform</h4>
+              <span className="text-gray-600 text-sm">Full Stack Developer</span>
+            </div>
+            <p className="text-gray-700 text-sm mb-2">
+              Designed and implemented an AI-powered content ingest platform integrating Large Language Models (LLMs) to automatically summarize daily complex inputs into structured digests. Features a context-aware AI chat mentor ('Ask the Mentor') allowing users to dynamically query source documents, test concepts, and get real-time explanations for highly technical subjects.
+            </p>
+            <p className="text-gray-600 text-sm">
+              <span className="font-semibold">Technologies:</span> React, Next.js, LLM Integration, Supabase, Vercel
             </p>
           </div>
         </section>

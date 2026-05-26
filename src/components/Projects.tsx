@@ -7,14 +7,16 @@ import godfixImage from "@/assets/project-godfix.png";
 import ecommerceImage from "@/assets/project-ecommerce.jpg";
 import taskappImage from "@/assets/project-taskapp.jpg";
 import risetowinImage from "@/assets/project-risetowin.png";
+import engineerosImage from "@/assets/project-engineeros.png";
+import sovereignstudiesImage from "@/assets/project-sovereignstudies.png";
 
 const Projects = () => {
   const projects = [
     {
       title: "Doorstep Mobile Repair Platform",
-      role: "Lead Developer",
+      role: "Product Engineer",
       description:
-        "Built a hyperlocal platform for doorstep mobile repair services offering 20+ types of phone repairs, with transparent pricing and secure customer data handling. Designed the end-to-end system architecture, integrating AI-driven content, SEO optimization, and automated workflows for bookings and customer communication.",
+        "Architected and deployed a highly performant, hyperlocal doorstep mobile repair platform supporting 20+ repair types with automated booking pipelines and secure transaction layers. Integrated AI-driven diagnostic content and structured SEO strategies that significantly boosted organic search visibility, user conversion rates, and streamlined communication flows.",
       image: godfixImage,
       technologies: ["React", "Supabase", "Deno", "AWS", "PostgreSQL", "Netlify"],
       liveUrl: "https://godfix.in/",
@@ -24,33 +26,32 @@ const Projects = () => {
       title: "RiseToWin - Goal & Habit Tracker",
       role: "Full Stack Developer",
       description:
-        "Engineered a privacy-first productivity application with local data storage to track goals, tasks, health, and daily reflections - helping hundreds of users stay organized and consistent. Integrated calendar and progress tracking features, enabling users to build habits, stay focused, and achieve their personal and professional objectives.",
+        "Engineered a privacy-first productivity workstation and habit tracker utilizing high-performance local storage for offline capability. Built interactive calendar visualizations, focus metrics, and daily reflection modules to help hundreds of active users optimize daily workflows and systematically achieve personal and professional milestones.",
       image: risetowinImage,
       technologies: ["React", "TypeScript", "Tailwind CSS", "LocalStorage", "Netlify"],
       liveUrl: "https://risetowin.netlify.app/",
       githubUrl: "https://github.com/priyaranjandash/risetowin",
     },
-    /* {
-      title: "E-Commerce Platform",
-      role: "Full Stack Developer",
+    {
+      title: "EngineerOS – Developer Productivity & Incident Command Center",
+      role: "Platform Engineer",
       description:
-        "Developed a scalable e-commerce solution with integrated payment processing, inventory management, and admin dashboard. Handles 10K+ daily transactions.",
-      image: ecommerceImage,
-      technologies: ["Next.js", "Redux", "Express", "MongoDB", "Stripe"],
-      liveUrl: "https://shop.example.com",
-      githubUrl: "https://github.com/priyaranjandash/ecommerce",
+        "Developed a comprehensive developer workstation dashboard that acts as an incident command center. Features interactive incident tracking by severity, streamlined Root-Cause Analysis (RCA) logs, and focus-time analytics. Built integrated hubs for persistent architectural docs, code snippet storage, and a vector-based digital whiteboard for live system sketching, accelerating daily production support throughput.",
+      image: engineerosImage,
+      technologies: ["React", "TypeScript", "Tailwind CSS", "LocalStorage", "Vercel"],
+      liveUrl: "https://engineeros.vercel.app/",
+      githubUrl: "#",
     },
     {
-      title: "Task Management App",
-      role: "Frontend Lead",
+      title: "Sovereign Studies – AI-Powered Content Platform",
+      role: "AI/LLM Integrator",
       description:
-        "Created an intuitive task management application with real-time collaboration features, drag-and-drop interface, and team analytics. Used by 5K+ users.",
-      image: taskappImage,
-      technologies: ["React", "TypeScript", "Firebase", "Tailwind CSS"],
-      liveUrl: "https://tasks.example.com",
-      githubUrl: "https://github.com/priyaranjandash/taskapp",
+        "Designed and implemented an AI-powered content ingest platform integrating Large Language Models (LLMs) to automatically summarize daily complex inputs into structured digests. Features a context-aware AI chat mentor ('Ask the Mentor') allowing users to dynamically query source documents, test concepts, and get real-time explanations for highly technical subjects.",
+      image: sovereignstudiesImage,
+      technologies: ["React", "Next.js", "LLM Integration", "Supabase", "Vercel"],
+      liveUrl: "https://risetolead.vercel.app/",
+      githubUrl: "#",
     },
-    */
   ];
 
   return (

@@ -11,13 +11,13 @@ const Experience = () => {
         {
           title: "Senior Associate Consultant",
           description:
-            "Led full-stack development and modernization projects for enterprise platforms, focusing on performance, scalability, and automation.",
+            "Working as L3 Engineer supporting enterprise logistics applications for a global supply-chain client, leading full-stack development and modernization projects with a focus on performance, scalability, and automation.",
           achievements: [
-            { text: "Migrated legacy applications from .NET 4.6 to .NET 8 with Entity Framework, modernizing ReportAPI to WebAPI." },
+            { text: "Migrated legacy applications from .NET 4.6 to .NET 8 with Entity Framework, modernizing ReportAPI and WebAPI." },
             { text: "Implemented service & repository patterns, improving code maintainability and reducing bugs." },
             { text: "Optimized C# EF queries, improving database performance and scalability by 30%+." },
             { text: "Migrated systems from SQL Server to PostgreSQL with seamless data transition." },
-            { 
+            {
               text: "Developed a React-based automation solution for Helix ticket verification, reducing manual effort by 90%.",
               link: "https://helix-ticket-hackathon.netlify.app/"
             },
@@ -112,9 +112,9 @@ const Experience = () => {
                                   <span className="flex-1">
                                     {typeof achievement === 'string' ? achievement : achievement.text}
                                     {typeof achievement === 'object' && achievement.link && (
-                                      <a 
-                                        href={achievement.link} 
-                                        target="_blank" 
+                                      <a
+                                        href={achievement.link}
+                                        target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center gap-1 ml-2 text-primary hover:text-primary/80 transition-colors"
                                       >
